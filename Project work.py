@@ -33,7 +33,10 @@ body = doc.article
 
 script = body.text
 
+print(script)
+'''''
 article = ['article']
+
 with open('script.csv', 'w') as f:
 
     writer = csv.writer(f)
@@ -84,5 +87,5 @@ dfs = dfs.apply(preprocess_text)
 
 
 
+'''
 
-print(dfs)
